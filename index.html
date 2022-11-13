@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турист-pro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container flex-block">
+            <a href="/" class="logo">
+                « Турист-pro »
+            </a>
+            <nav class="navigation flex-block">
+                <a href="#promo" class="nav_link">Акции</a>
+                <a href="#search" class="nav_link">Поиск</a>
+                <a href="./content/order.html" class="nav_link">Управление бронированием</a>
+            </nav>
+            <!-- /.navigation -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <!-- /.header -->
+
+    <section class="section promo" id="promo">
+        <div class="container">
+            <div class="flex-block promo__block">
+                <h1 class="promo_title">Исполнить мечты просто!</h1>
+                <h2 class="promo_subtitle">Накопительная система скидок:</h2>
+                <p class="promo_text">- <span class="percent">5%</span> скидка для путешествующих с нами повторно;</p>
+                <p class="promo_text">- <span class="percent" 7%></span> скидка для путешествующих с нами в третий раз;
+                </p>
+                <p class="promo_text">-максимальная скидка <span class="percent">— 10%</span> , скидка для проводящих
+                    свой отпуск с нашей компанией в четвертый и последующий раз</p>
+                <button class="btn btn--primary btn-promo">Просмотр</button>
+            </div>
+            <!-- /.promo__block -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section promo -->
+
+    <section class="section algoritm">
+        <div class="container flex-block algoritm_block ">
+            <h2 class="section_title">Чтобы воспользоваться услугами компании необходимо:</h2>
+            <ol class="algoritm_list">
+                <li class="list-item"> Выбрать даты предполагаемого похода;</li>
+                <!-- /.list-item -->
+                <li class="list-item">Указать количество участников и их уровень подготовки;</li>
+                <!-- /.list-item -->
+                <li class="list-item"> Выбрать желаемый регион для похода;</li>
+                <!-- /.list-item -->
+                <li class="list-item">Зарезервировать конкретные зоны которые будут включены в
+                    обязательное посещение;</li>
+                <!-- /.list-item -->
+                <li class="list-item"> Определить перечень дополнительных услуг;</li>
+                <!-- /.list-item -->
+                <li class="list-item"> Оформить заказ.</li>
+                <!-- /.list-item -->
+            </ol>
+            <!-- /.algoritm_list -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section algoritm -->
+
+    <section class="section info">
+        <div class="container flex-block info-section_block">
+            <h2 class="section_title">Информация о компании</h2>
+            <div class=" info_block">
+                <p class="target">Наша цель: <strong>сделать любой поход удобным, комфортным и безопасным.</strong></p>
+                <p class="target">Наш девиз:!<strong> Исполнить мечты просто</strong></p>
+
+                <h3 class="section_title">Отзывы о нас</h3>
+                <div class="comments_block">
+                    <div class="comment_card">
+                        <div class="card_img-block">
+                            <img src="./img/man.jpg" alt="avatar" class="avatar">
+                        </div>
+                        <!-- /.card_img-block -->
+                        <h3 class="section_title">Вадим Владимирович</h3>
+                        <p class="card-desk">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste cumque
+                            inventore ut a delectus praesentium? Eveniet, maiores quas velit autem voluptate dolor,
+                            natus aliquam illo odit architecto ex accusantium doloremque.</p>
+                    </div>
+                    <!-- /.comment_card -->
+
+                    <div class="comment_card">
+                        <div class="card_img-block">
+                            <img src="./img/man.jpg" alt="avatar" class="avatar">
+                        </div>
+                        <!-- /.card_img-block -->
+                        <h3 class="section_title">Вадим Владимирович</h3>
+                        <p class="card-desk">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste cumque
+                            inventore ut a delectus praesentium? Eveniet, maiores quas velit autem voluptate dolor,
+                            natus aliquam illo odit architecto ex accusantium doloremque.</p>
+                    </div>
+                    <!-- /.comment_card -->
+
+                    <div class="comment_card">
+                        <div class="card_img-block">
+                            <img src="./img/man.jpg" alt="avatar" class="avatar">
+                        </div>
+                        <!-- /.card_img-block -->
+                        <h3 class="section_title">Вадим Владимирович</h3>
+                        <p class="card-desk">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste cumque
+                            inventore ut a delectus praesentium? Eveniet, maiores quas velit autem voluptate dolor,
+                            natus aliquam illo odit architecto ex accusantium doloremque.</p>
+                    </div>
+                    <!-- /.comment_card -->
+                </div>
+                <!-- /.comments_block -->
+            </div>
+            <!-- /.info_block -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section info -->
+
+    <section class="section form_section" id="search">
+        <div class="container">
+            <h2 class="section_title">Найди свой тур</h2>
+            <form action="#" class="form">
+                <div class="input_group">
+                    <label for="region">Введите регион</label>
+                    <input name="region" id="region" type="text" class="input form_input">
+                </div>
+                <!-- /.input_group -->
+
+                <div class="input_group">
+                    <label for="date">Выберите дату</label>
+                    <input name="date" id="date" type="date" class="input form_input">
+                </div>
+                <!-- /.input_group -->
+
+                <div class="input_group">
+                    <label for="number">Количество участников</label>
+                    <input name="number" id="number" type="number" class="input form_input">
+                </div>
+                <!-- /.input_group -->
+
+                <div class="input_group">
+                    <label for="lavel">Уровень подготовки</label>
+                    <select name="lavel" id="lavel" class="form_select input form_input">
+                        <option value="1" class="form_option">Никогда не был в походе</option>
+                        <option value="2" class="form_option">Иногда бываю в походе</option>
+                        <option value="3" class="form_option">Часто хожу в походы</option>
+                    </select>
+                </div>
+                <!-- /.input_group -->
+                <div class="buttons">
+                    <a href="./content/result.html" class="btn btn-secondary">Поиск</a>
+                </div>
+                <!-- /.buttons -->
+            </form>
+            <!-- /.form -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section form_section -->
+
+    <footer class="footer">
+        <div class="container flex-block">
+            <a href="tel:88005553310" class="logo">
+                8 (800) 555-33-10
+            </a>
+
+            <form action="#" class="footer_form flex-block">
+                <input type="email" class="input footer-email" placeholder="Введите Ваш e-mail">
+                <button class="btn btn--primary">Подписаться</button>
+            </form>
+            <!-- /.footer_form -->
+
+            <nav class="navigation flex-block footer_nav">
+                <a href="#" class="nav_link">Акции</a>
+                <a href="#search" class="nav_link">Поиск</a>
+                <a href="./content/order.html" class="nav_link">Управление бронированием</a>
+            </nav>
+            <!-- /.navigation -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- /.footer -->
+</body>
+
+</html>
